@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="<{$xoops_charset}>"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" href="<{$xoops_themecss}>" media="screen,tv" type="text/css" title="fysilentnight (default)" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="1" width="100%" id="header" class="outer">
+  <tr class="logoback">
+	<td>
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <tr>
+	  	<td><a href="<{$xoops_url}>/" title="<{$xoops_sitename}>"><img src="<{$xoops_imageurl}>images/logo.jpg"></a></td><td width="100%" align="center"><{$xoops_banner}></td>
+	  </tr>
+	</table>
+	</td>
+  </tr>
+  <tr>
+	<td align="center">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="navigation">
+	  <tr align="center">
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/'" style="cursor:pointer"><a href="<{$xoops_url}>/">Home</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/modules/news/'" style="cursor:pointer"><a href="<{$xoops_url}>/modules/news/">News</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/modules/newbb/'" style="cursor:pointer"><a href="<{$xoops_url}>/modules/newbb/">Forum</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/modules/sections/'" style="cursor:pointer"><a href="<{$xoops_url}>/modules/sections/">Documents</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/modules/mydownloads/'" style="cursor:pointer"><a href="<{$xoops_url}>/modules/mydownloads/">Downloads</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/modules/mylinks/'" style="cursor:pointer"><a href="<{$xoops_url}>/modules/mylinks/">Links</a></td>
+	  	<td class="odd" onmouseover="this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor='#F6F6F6';" onclick="window.location.href='<{$xoops_url}>/search.php'" style="cursor:pointer"><a href="<{$xoops_url}>/search.php/">Search</a></td>
+	  </tr>
+	</table>
+	</td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <{if $xoops_lblocks == ""}>
+    <{else}>
+	<td id="leftsidebar">
+	<!-- Left BEGIN -->
+	<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+	<{foreach item=block from=$xoops_lblocks}>
+	  <tr>
+	  	<th><{$block.title}></th>
+	  </tr>
+	  <tr>
+	  	<td class="odd"><{$block.content}></td>
+	  </tr>
+	  <tr>
+	  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+	  </tr>
+	<{/foreach}>
+	</table>
+	<br />
+	<!-- Left END -->
+	</td>
+	<{/if}>
+	<td id="content">
+	<{if $xoops_showcblock == 1}>
+	<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+	<!-- Center BEGIN -->
+	<{foreach item=block from=$xoops_ccblocks}>
+	  <tr>
+	  	<th><{$block.title}></th>
+	  </tr>
+	  <tr>
+	  	<td class="odd"><{$block.content}></td>
+	  </tr>
+	  <tr>
+	  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+	  </tr>
+	<{/foreach}>
+	</table>
+	<br />
+	<!-- Center END -->
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <tr>
+		<td id="contentleft">
+		<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+		<!-- Center Left BEGIN -->
+		<{foreach item=block from=$xoops_clblocks}>
+		  <tr>
+		  	<th><{$block.title}></th>
+		  </tr>
+		  <tr>
+		  	<td class="odd"><{$block.content}></td>
+		  </tr>
+		  <tr>
+		  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+		  </tr>
+		<{/foreach}>
+		</table>
+		<br />
+		<!-- Center Left End -->
+		</td>
+		<td id="contentright">
+		<!-- Center Right BEGIN -->
+		<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+		<!-- Center Left BEGIN -->
+		<{foreach item=block from=$xoops_crblocks}>
+		  <tr>
+		  	<th><{$block.title}></th>
+		  </tr>
+		  <tr>
+		  	<td class="odd"><{$block.content}></td>
+		  </tr>
+		  <tr>
+		  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+		  </tr>
+		<{/foreach}>
+		</table>
+		<br />
+		<!-- Center Right End -->
+		</td>
+	  </tr>
+	</table>
+	<{/if}>
+	<{if $xoops_contents == "" }>
+	<{else}>
+	<!-- Content BEGIN -->
+	<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+	  <tr>
+	  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+	  </tr>
+	  <tr>
+	  	<td class="odd"><{$xoops_contents}></td>
+	  </tr>
+	  <tr>
+	  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+	  </tr>
+	</table>
+	<br />	
+	<!-- Content END -->
+	<{/if}>
+	</td>
+	<{if $xoops_showrblock == 1}>
+	<td id="rightsidebar">
+	<table border="0" cellpadding="0" cellspacing="1" width="100%" class="outer">
+	<!-- Right BEGIN -->
+	<{foreach item=block from=$xoops_rblocks}>
+	  <tr>
+	  	<th><{$block.title}></th>
+	  </tr>
+	  <tr>
+	  	<td class="odd"><{$block.content}></td>
+	  </tr>
+	  <tr>
+	  	<td class="foot"><img src="<{$xoops_imageurl}>images/spacer.gif" width="1" height="1" /></td>
+	  </tr>
+	<{/foreach}>
+	<!-- Right END -->
+	</table>
+	<br />
+	</td>
+	<{/if}>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="1" width="100%" id="footer">
+  <tr>
+    <!-- Footer BEGIN -->
+    <td class="even"><{$xoops_footer}> :: Designed by <a href="http://www.theme4u.net/" target="_blank" title="Theme4u.Net">theme4u</a></td>
+    <!-- Footer END -->
+  </tr>
+</table>
+
+</body>
+</html>

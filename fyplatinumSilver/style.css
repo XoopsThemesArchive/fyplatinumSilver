@@ -1,0 +1,540 @@
+/* --------------------------------- */
+/*  FY Platinum Silver CSS           */
+/*  Update: 04/12/02                 */
+/* --------------------------------- */
+
+
+
+/* SITE BODY Style */
+
+body{
+	background: url(images/background.jpg) repeat-x;
+	background-attachment: fixed;
+	font-family: Verdana, Tahoma, Arial, sans-serf;
+	font-size: 80%;
+	padding: 5px
+	margin: 0px;
+	}
+
+table,tr,td{
+	font-size: 100%;
+	}
+
+th{
+	background: #EAEAEA url(images/titlebg.jpg);
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	color: #444444;
+	padding: 4px;
+	}
+
+th a:link, th a:active, th a:visited{
+	color: #444444;
+	}
+
+hr{
+	height: 0px;
+	border: 0px solid #666666;
+	border-top-width: 1px;
+	}
+
+img{
+	border: 0px;
+	}
+
+h1,h2,h3,h4{
+	padding:0;
+	margin:0;
+	}
+
+h4{
+	background: #EAEAEA url(images/titlebg.png);
+	border: 1px solid #ACBAC4;
+	color: #444444;
+	padding: 4px;
+	margin-bottom: 1.0em;
+	}
+
+/* Link Style -----------------------*/
+
+a:link, a:active, a:visited{
+	color: #465764;
+	text-decoration: none;
+	}
+
+a:hover{
+	color: #8DA0AF;
+	}
+
+
+/* List Style ---------------------- */
+
+ul	{
+	margin: 0px;
+	padding: 0px;
+	list-style: decimal inside;
+	text-align: left
+	}
+
+li	{
+	margin-left: 3px;
+	line-height: 150%;
+	list-style: square inside;
+	}
+
+
+/* General text -------------------- */
+
+.genmed{
+	font-size: 10px
+	}
+
+.gensmall{
+	font-size: 12px
+	}
+
+.shortcut{
+	text-decoration: underline;
+	}
+
+.none{display:none;}
+
+
+/* Border Style -------------------- */
+
+
+/* HEADER -------------- */
+
+#header .logoback{
+	background: url(images/logoback.jpg);
+	height: 84px;
+	}
+
+#header h1{
+	font: 200% Tahoma, Verdana, "Lucida Grande", sans-self;
+	padding: 3px 10px;
+	}
+
+
+/* NAVIGATION ---------- */
+
+#navigation a:link, #navigation a:hover, #navigation a:active, #navigation a:visited{
+	color: #465764;
+	}
+
+
+/* CONTENT ------------- */
+
+#content{
+	vertical-align: top;
+	padding: 5px 0;
+	}
+
+#content h3.blockTitle{
+	background: #6061BF;
+	border-bottom: 3px double #F5F5F5;
+	color: #ffffff;
+	padding: 2px 5px;
+	}
+
+#content div.blockContent{
+	padding: 3px 3px 0.6em 3px;
+	}
+
+#contentleft{
+	vertical-align: top;
+	width: 50%;
+	padding-right: 3px;
+	}
+
+#contentright{
+	vertical-align: top;
+	width: 50%;
+	padding-left: 3px;
+	}
+
+#content table, #contentleft table, #contentright table{
+	width: 100%;
+	}
+
+/* LEFT SIDE BAR ------- */
+
+#leftsidebar{
+	vertical-align: top;
+	width: 160px;
+	padding: 5px 5px 5px 0;
+	margin: 0;
+	}
+
+#leftsidebar table{
+	width: 100%;
+	}
+
+
+/* RIGHT SIDE BAR ------ */
+
+#rightsidebar{
+	vertical-align: top;
+	width: 160px;
+	padding: 5px 0 5px 5px;
+	}
+
+
+/* FOOTER -------------- */
+
+#footer{
+	background: #ACBAC4;
+	width: 100%;
+	font-size: 90%;
+	text-align: center;
+	}
+
+#footer a{
+	}
+
+#footer a:hover{
+	text-decoration: underline;
+	}
+
+/* Mainmenu Style ------------------ */
+
+.modd{
+	background: #F6F6F6;
+	vertical-align: top;
+	padding: 0px;
+	}
+
+td#mainmenu {
+	line-height: 1.0em;
+	padding: 0px;
+	margin: 0;
+	}
+
+td#mainmenu a {
+	border-bottom: 1px solid #ACBAC4;
+	}
+
+td#mainmenu a:hover {
+	background: #EBEBEB;
+	text-decoration: none;
+	}
+
+td#mainmenu a.menuTop {
+	}
+
+td#mainmenu a.menuTop:hover {
+	}
+
+td#mainmenu a.menuMain {
+	}
+
+td#mainmenu a.menuMain:hover{
+	}
+
+td#mainmenu a.menuSub {
+	border-left: 1px solid #ACBAC4;
+	line-height: 0.7em;
+	font-size: 80%;
+	margin-left: 1.0em;
+	}
+
+td#mainmenu a.menuSub:hover {
+	}
+
+
+/* Usermenu Style ------------------ */
+
+td#usermenu {
+	line-height: 1.0em;
+	padding: 0px;
+	margin: 0;
+	}
+
+td#usermenu a {
+	border-bottom: 1px solid #ACBAC4;
+	}
+
+td#usermenu a:hover {
+	background: #EBEBEB;
+	text-decoration: none;
+	}
+
+td#usermenu a.menuTop {
+	}
+
+td#usermenu a.highlight {
+	background: #ffcc00;
+	color: #1A1A1A;
+	}
+
+
+/* NEWS Style ---------------------- */
+
+.item {
+	border: 1px solid #ACBAC4;
+	}
+
+.itemHead {
+	border-bottom: 1px solid #ACBAC4;
+	background: #EAEAEA url(images/titlebg.png);
+	font-weight: bold;
+	color: #444444;
+	padding: 4px;
+	}
+
+.itemInfo {
+	border-bottom: 1px solid #ACBAC4;
+	background: #EBEBEB;
+	font-size: 90%;
+	text-align: right;
+	padding: 2px 5px;
+	}
+
+.itemTitle a:link, .itemTitle a:active, .itemTitle a:visited {
+	color: #444444;
+	text-decoration: none;
+}
+
+.itemPoster {}
+
+.itemPostDate {}
+
+.itemStats {}
+
+.itemBody {
+	border-bottom: 1px solid #ACBAC4;
+	background: #F6F6F6;
+	}
+
+.itemText {
+	line-height: 150%;
+	padding: 2px 5px;
+	}
+
+.itemFoot {
+	background: #EBEBEB;
+	font-size: 90%;
+	text-align: right;
+	padding: 2px 5px;
+	}
+
+.itemAdminLink {}
+
+.itemPermaLink {}
+
+
+
+/* Newbb Style --------------------- */
+
+.outer{
+	background: #ACBAC4;
+	width: 100%;
+	}
+
+.head, tr.head td{
+	background: #EAEAEA;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	color: #444444;
+	font-weight: bold;
+	padding: 4px;
+	}
+
+.head a:link, .head a:active, .head a:visited{
+	color: #444444;
+	}
+
+.head a:hover{
+	text-decoration: underline;
+	}
+
+.even{
+	background: #EBEBEB;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	vertical-align: top;
+	padding: 3px;
+	}
+
+.odd{
+	background: #F6F6F6;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	vertical-align: top;
+	padding: 3px;
+	}
+
+tr.even td{
+	background: #ECECEC;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	vertical-align: middle;
+	padding: 3px;
+	}
+
+tr.odd td{
+	background: #F6F6F6;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.foot, tr.foot td{
+	background: #ECECEC;
+	border: solid #ffffff;
+	border-width: 1px 1px 0 1px;
+	color: #444444;
+	padding: 3px;
+	}
+
+.foot a:link, .foot a:active, .foot a:visited{
+	color: #444444;
+	}
+
+
+/* NEWBB Userbox Style ------------- */
+
+.comTitle {
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 2px;
+	}
+
+.comPoster {
+	border: 1px solid #e1e1e1;
+	background: #f7f4f0;
+	padding: 2px 5px;
+	margin: 5px;
+	}
+
+.comText {
+	line-height: 150%;
+	padding: 2px;
+	padding-bottom: 20px;
+	}
+
+.comUserStat {
+	border: 1px outset #6061BF;
+	font-size: 80%;
+	font-weight:bold;
+	padding: 2px;
+	margin: 2px;
+	}
+
+.comUserStatCaption {
+	font-weight: normal;
+	}
+
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	color: #2F5376;
+	font-weight:bold;
+	font-size: 10px;
+	}
+
+.comUserRank {
+	margin: 2px;
+	}
+
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+	}
+
+.comUserRankImg {
+	border: 0;
+	}
+
+.comUserName {
+	}
+
+.comUserImg {
+	margin: 2px;
+	}
+
+.comDate {
+	font-weight: normal;
+	font-style: italic;
+	}
+
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	}
+
+
+/* Form Setting ------------------------------------------- */
+form {
+	margin:0;
+	padding:0
+	}
+
+input{
+	}
+
+textarea{
+	}
+
+
+/* BBCODE Style -------------------- */
+
+div.xoopsCode {
+	font-family: Courier, 'Courier New', sans-serif;
+	font-size: 90%;
+	border: solid #A9B8C2;
+	border-width: 1px 1px 1px 5px;
+	padding: 0em 0.5em;
+	margin: 5px;
+	}
+
+div.xoopsQuote {
+	padding: 0;
+	margin: 5px;
+	}
+
+blockquote {
+	border: solid #A9B8C2;
+	border-width: 1px 1px 1px 5px;
+	padding: 1.0em 0.5em;
+	margin: 0;
+	}
+
+
+/* ERROR MESSAGE ------------------- */
+
+div.errorMsg {
+	background-color: #FFCCCC;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.confirmMsg {
+	background-color: #DDFFDF;
+	color: #136C99;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.resultMsg {
+	background-color : #CCCCCC;
+	color: #333333;
+	text-align: center;
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+	font-weight: bold;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding: 10px;
+}
